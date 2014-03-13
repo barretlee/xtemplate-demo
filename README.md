@@ -31,4 +31,4 @@ xtemplate-demo
 
 为方便测试，写了一个简单的小工具。
 
-地址：[XTtemplate 测试工具]()
+地址：[XTtemplate 测试工具](http://rawgithub.com/barretlee/xtemplate-demo/master/demo.html)
