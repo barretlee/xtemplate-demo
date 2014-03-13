@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<textarea id="xt" style="width:400px;height:200px;" placeholder="模板写在这里~">
+<ul>
+    {{#each data}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
+</textarea>
+<textarea id="data" style="width:400px;height:200px;" placeholder="数据扔在这里~">
+{
+    data: [1,2,3,4,5]
+}
+</textarea>
+<br />
+<button id="btn">Go!</button>
+<br />
+<div id="box" style="padding:10px;margin-top:20px;border:1px solid #CCC; min-height:50px;width:800px;"></div>
+
+
+<script type="text/javascript" src="http://g.tbcdn.cn/kissy/k/1.4.2/seed.js"></script>
+<script type="text/javascript">
+KISSY.use('node, json, xtemplate', function (S, N, J, X) {
+    
+    S.all("#btn").on('click', function(){
+        var data = eval("(" + S.all("#data").val() + ")");
+        var res = new X(S.all("#xt").val()).render(data);
+        S.all("#box").html(res);
+    });
+
+});
+</script>
