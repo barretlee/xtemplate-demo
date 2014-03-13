@@ -1,7 +1,7 @@
 XTemplate-demo
 ==============
 
-[XTemplate](http://docs.kissyui.com/1.4/docs/html/guideline/xtemplate.html) 是 [KISSY]()http://docs.kissyui.com/ 中一个很强大的模板引擎，不仅支持 mustache ，还有很多扩展的功能。
+[XTemplate](http://docs.kissyui.com/1.4/docs/html/guideline/xtemplate.html) 是 [KISSY](http://docs.kissyui.com/) 中一个很强大的模板引擎，不仅支持 mustache ，还有很多扩展的功能。
 
 
 一个典型的XTemplate模板实例：
