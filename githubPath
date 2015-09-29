@@ -1,0 +1,13 @@
+---
+title:test2
+---
+Author: barret
+
+Email: email
+
+```javascript
+var s = 1;
+function s(){
+  s = 2;
+}
+```
